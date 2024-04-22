@@ -1,0 +1,28 @@
+.cartItems {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.cartitem {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  box-shadow: 0 2px 2px 2px black;
+  width: 400px;
+}
+
+.allButtonsInCart {
+  padding: 10px;
+}
+
+.cartitem button {
+  padding: 10px;
+}
+
+.cartitem input {
+  padding: 10px;
+  text-align: center;
+}

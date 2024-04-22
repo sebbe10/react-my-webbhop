@@ -1,0 +1,43 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  background-color: black;
+  height: auto;
+  padding: 10px 100px;
+}
+
+.header ul {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+}
+
+.header a {
+  color: white;
+  list-style: none;
+  text-decoration: none;
+  font-size: 30px;
+  height: auto;
+}
+.header a:hover {
+  background-color: gray;
+  height: auto;
+}
+
+.myQuantity {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.theQuantity {
+  color: white;
+  font-size: 30px;
+}
+
+.fa-cart-shopping {
+  color: white;
+  font-size: 30px;
+}

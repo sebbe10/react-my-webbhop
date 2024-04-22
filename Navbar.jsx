@@ -1,18 +1,25 @@
 import { Link } from "react-router-dom";
+import "./navbar.css";
 function Navbar() {
   return (
     <>
-      <nav>
-        <ul>
-          <li>
-            <Link to="/">Shop</Link>
-          </li>
+      <header className="header">
+        <nav>
+          <ul>
+            <li>
+              <Link to="/">Shop</Link>
+            </li>
 
-          <li>
-            <Link to="/cart">Cart</Link>
-          </li>
-        </ul>
-      </nav>
+            <li>
+              <Link to="/cart">Cart</Link>
+            </li>
+
+            <Link to="/cart">
+              <i className="fa-solid fa-cart-shopping"></i>
+            </Link>
+          </ul>
+        </nav>
+      </header>
     </>
   );
 }
